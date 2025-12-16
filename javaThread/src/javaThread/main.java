@@ -1,16 +1,15 @@
 package javaThread;
 
-public class main {
+public class Main { // Class name corrected to Main (capital 'M')
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		ClassA classa=new ClassA();
-		classB classb=new ClassB();
-	classa.start();
-	classb.start();
-	
 		
-
+		
+		ClassA classa = new ClassA();
+		ClassB classb = new ClassB();
+		
+	
+		classa.start(); 
+		classb.start(); 
 	}
-
 }
