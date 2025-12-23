@@ -25,7 +25,8 @@ public class Main {
 				double valueOfY = dis.readDouble();
 				System.out.println("Double value: " + valueOfY);
 				
-				
+				boolean flag = dis.readBoolean();
+				System.out.println("Boolean value: " + flag);
 				
 				dis.close();
 				
