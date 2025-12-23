@@ -21,6 +21,12 @@ public class Main {
 				DataInputStream dis = new DataInputStream(new FileInputStream("outputlap.bin"));
 				int valueOfX = dis.readInt();
 				System.out.println(valueOfX);
+				
+				double valueOfY = dis.readDouble();
+				System.out.println("Double value: " + valueOfY);
+				
+				
+				
 				dis.close();
 				
 				
