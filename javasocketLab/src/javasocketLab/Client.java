@@ -12,11 +12,11 @@ public class Client {
 
 		try {
             // REPLACE THIS WITH SERVER'S ACTUAL IP ADDRESS
-            String serverIP = "192.168.1.100"; // Change this!
+            String serverIP = "192.168.137.1"; // Change this!
             Socket s = new Socket(serverIP, 5000);
             
             DataOutputStream dos = new DataOutputStream(s.getOutputStream());
-            dos.writeUTF("Hello Server from Client!");
+            dos.writeUTF("Hello Server desktop from Client!");
             
             DataInputStream dis = new DataInputStream(s.getInputStream());
             System.out.println("Server response: " + dis.readUTF());
